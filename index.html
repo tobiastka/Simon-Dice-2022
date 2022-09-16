@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="src/index.css">
+</head>
+
+<body>
+    <div class="d-flex justify-content-center my-2"> 
+        <a id="start_button" type="button" class="btn  justify-content-center">JUGAR</a>
+        <a id="score_button" type="button" class="btn btn-outline-danger justify-content-center mx-1">Ronda <span id="score"></span></a>
+        <a id="start_hard_button" type="button" class="btn  justify-content-center">JUGAR DIFICIL</a>
+    </div>
+    
+    <audio id="hard_game_music" src="src\music\hardSong.mp3" preload></audio>
+    <audio id="game_music" src="src\music\normalSong.mp3" preload></audio>
+    <audio id="game_click" src="src\music\click.mp3" preload></audio>
+
+    <div class="container text-center ">
+        <div class="row">
+            <div class="col-sm bg-primary p-5 mx-1 game_button  opacity-50">
+                
+            </div>
+            <div class="col-sm bg-secondary p-5 mx-1 game_button  opacity-50">
+                
+            </div>
+            <div class="col-sm bg-success p-5 mx-1 game_button  opacity-50">
+                
+            </div>
+            <div class="col-sm bg-danger p-5 mx-1 game_button  opacity-50">
+                
+            </div>
+        </div>
+    </div>
+
+
+    <script src="src/index.js"></script>
+
+</body>
+
+</html>
